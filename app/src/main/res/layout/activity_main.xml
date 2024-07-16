@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_action_name"
+       android:id="@+id/floatingBtn"
+       android:layout_marginLeft="320dp"
+       android:tint="#fff">
+
+   </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Edit"
+    android:textSize="28sp"
+   android:layout_marginTop="10dp"
+    android:layout_marginLeft="250dp"
+    />
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="60dp"
+       android:id="@+id/recyclerView"/>
+
+</RelativeLayout>
